@@ -1,0 +1,105 @@
+
+body {
+  
+}
+
+li{
+	text-align:center;
+	padding: 30% 0 30% 0;
+	list-style: none;
+}
+
+li:hover .nomeIcone{
+	background: #d07691;;
+	visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  height: auto;
+	padding: 30% 0 5% 0;
+}
+
+li:hover{
+	background: #d07691;;
+	padding: 30% 0 5% 0;
+	border: 1px solid #d07691;;
+}
+
+#menu-left {
+    width: 5%;
+    max-width: 100%;
+    height: 100%;
+    background-color: #d05aac;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+
+nav{
+  height: 78px;
+  padding-left: 0 !important;
+}
+
+.gradientPadrao{
+    background: radial-gradient(circle at 1.98% 2.00%, #B993D6, transparent 100%),
+                radial-gradient(circle at 98.02% 92.01%, #8CA6DB, transparent 100%),
+                radial-gradient(circle at 50% 50%, #0cc285, #0cc285 100%);
+}
+
+.header-logo{
+    width: 260px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    position: relative;
+    height: inherit;
+}
+
+.imgLogo{
+    width: 40%;
+    margin-top: 6%;
+}
+
+.logo-bg{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.logo{
+  text-align: center;
+  margin:25% 0 80% 0;
+}
+
+.logo img{
+  width: 75%;
+}
+
+.active{
+	background: #d07691;;
+}
+
+.fade {
+   opacity: 0;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.nomeIcone{
+	color: white;
+	visibility: hidden;
+  	opacity: 0;
+  	height: 0px;
+  	margin: 0px;
+  	transition: visibility 0s, opacity 0.5s linear;
+}
+
+.iconeMenu{
+	font-size:1.5em;
+	color:white;
+}
+
+@media screen and (min-width: 900px){
+	
+}
